@@ -4,9 +4,14 @@
              x:Class="App2P2023.Views.PageListEmple">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem x:Name="tooladd" Text="Agregar" Clicked="tooladd_Clicked"/>
+        <ToolbarItem  Text="Agregar" Clicked="tooladd_Clicked"/>
 
-        <ToolbarItem x:Name="toollist" Text="Lista" Clicked="toollist_Clicked"/>
+        <ToolbarItem  Text="Lista" Clicked="toollist_Clicked"/>
+
+        <ToolbarItem  Text="Lista Foto" Clicked="ToolbarItem_Clicked"/>
+
+        <ToolbarItem  Text="Mapa" Clicked="ToolbarItem_Clicked_1"/>
+        
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
